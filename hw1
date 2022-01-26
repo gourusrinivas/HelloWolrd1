@@ -1,12 +1,12 @@
 node {
     stage('Preparation') {
-        bat ''' ECHO Hi '''
+       pyc ''' ECHO Hi '''
     }
     stage('Build') {
-        bat ''' ECHO Hello '''
+        pyc ''' ECHO Hello '''
     }
     stage('Post build action') {
-        bat ''' ECHO Hello World '''
+        pyc ''' ECHO Hello World '''
         
     }
     
