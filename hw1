@@ -1,12 +1,12 @@
 node {
     stage('Preparation') {
-       pyc ''' print('Hi') '''
+       pyc ''' print(Hi) '''
     }
     stage('Build') {
-        pyc ''' print('Hello') '''
+        pyc ''' print(Hello) '''
     }
     stage('Post build action') {
-        pyc ''' print('Hello World') '''
+        pyc ''' print(Hello World) '''
         
     }
     
